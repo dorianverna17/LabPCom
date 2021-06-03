@@ -1,0 +1,17 @@
+single-v4.protocoale.club. 5	IN	A	127.0.0.1
+single.protocoale.club.	5	IN	A	127.0.0.1
+dorinel.protocoale.club. 5	IN	A	127.42.0.0
+multi-v4.protocoale.club. 5	IN	A	127.2.2.2
+multi-v4.protocoale.club. 5	IN	A	127.3.3.3
+multi-v4.protocoale.club. 5	IN	A	127.4.4.4
+multi-v4.protocoale.club. 5	IN	A	127.1.1.1
+multi.protocoale.club.	5	IN	A	127.2.2.2
+multi.protocoale.club.	5	IN	A	127.1.1.1
+multi.protocoale.club.	5	IN	A	127.4.4.4
+multi.protocoale.club.	5	IN	A	127.3.3.3
+pc.protocoale.club.	5	IN	CNAME	pcom.protocoale.club.
+pcom.protocoale.club.	4	IN	CNAME	protocoale.protocoale.club.
+protocoale.protocoale.club. 4	IN	A	127.42.42.42
+pcom.protocoale.club.	4	IN	CNAME	protocoale.protocoale.club.
+protocoale.protocoale.club. 4	IN	A	127.42.42.42
+protocoale.protocoale.club. 4	IN	A	127.42.42.42

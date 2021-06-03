@@ -1,0 +1,7 @@
+Am facut task-urile in afara de bonus.
+Am pus structura pentru detectia de erori my_payload in lib.h si am modificat send si recv
+In send am facut doua while-uri. In primul while trimit atatea cadre cate pot fi in acelasi
+timp pe canal. Apoi mai am un while in care pe masura ce se primeste ACK-ul de la un mesaj
+trimit altul catre receiver. In receiver citesc mesajele intr-o bucla.
+De asemenea, am modificat variabila CORRUPT si afisez daca mesajul primit de receiver este
+sau nu corupt. Functie de calculare a paritatii am pus-o si in send si in receive.

@@ -1,0 +1,6 @@
+Am folosit in general ceea ce ne-ai explicat la laborator.
+Am incercat sa fac acele TODO-uri din while si pana la urma cred ca am ajuns la
+o chestie ok. Daca dau ping h1 de exemplu de pe h2 merge.
+
+Pentru get_best_route si get_arp_entry am incercat sa ma folosesc de codul dat de tine
+Nu inteleg totusi de ce trebuia neaparat sa facem ntohl cand comparam mastile.

@@ -1,0 +1,12 @@
+Am creat fisierul cu care testez folosind comanda:
+
+dd if=/dev/zero bs=1024 count=1 | tr '\000' '1' > foo
+
+Acesta este un fisier plin de caractere 1
+Am facut programele astfel incat sa afiseze niste mesaje ajutatoare
+Am mai pus si niste comentarii in cod
+Programul merge, dar daca creez cu dd din /dev/random nu garantez ca o sa dea
+output-ul bun pentru ca probabil ca vor fi caractere random care trebuie escapate special.
+De aceea, pentru o verificare mai usoara folosesc comanda dd de mai sus. In rest, folosesc
+conceptele invatate. Fisierul creat este de forma "<nume fisier dat ca parametru >_copied"
+Sper ca e ok 

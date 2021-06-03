@@ -1,0 +1,11 @@
+Echipa 1 - lab 7 - Verna Dorian-Alexandru, Timpuriu Mircea, Oprea Theodor-Alin
+
+Am schimbat modul de lansare in executie al clientului, am adaugat un parametru
+pentru a facilita char service-ul, se va rula:
+Pentru exercitiul 1 client => server
+./server 127.0.0.1 12345
+./client 127.0.0.1 12345 1
+Pentru exercitiul 2 client 1 => server => client 2
+./server 127.0.0.1 12345
+./client 127.0.0.1 12345 1
+./client 127.0.0.1 12345 2

@@ -1,0 +1,124 @@
+GET /api/v1/dummy HTTP/1.1
+Host: 34.118.48.238
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+ETag: W/"c-axnLN5C22o98NLTYiV14pW0HhiQ"
+Date: Tue, 11 May 2021 14:57:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Hello there!
+POST /api/v1/dummy HTTP/1.1
+Host: 34.118.48.238
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 33
+
+username=student&password=student
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Type: application/json; charset=utf-8
+Content-Length: 43
+ETag: W/"2b-u7UaXehVWhto43r986qtXSks/ss"
+Date: Tue, 11 May 2021 14:57:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"username":"student","password":"student"}
+POST /api/v1/auth/login HTTP/1.1
+Host: 34.118.48.238
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 33
+
+username=student&password=student
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Set-Cookie: connect.sid=s%3Aw9bxhuFNrlzc4AgYwL274Q6m8snf4POz.kxKfc%2FGKYW76Ttlh313ImqEP76HvyPLluiFscjQLlhQ; Path=/; HttpOnly
+Date: Tue, 11 May 2021 14:57:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 0
+
+
+GET /api/v1/weather/key HTTP/1.1
+Host: 34.118.48.238
+Cookie: connect.sid=s%3AR2-XOznczKTxiWdJfA1ovWjNwAcJ11GP.jbMyDt4BBaTRg5f%2FlL4Nq590GrSNP30Gib9z6%2FW9cuE;
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-KcT6RSVmdMwjWI5Ugs5McpTCZpM"
+Date: Tue, 11 May 2021 14:57:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"key":"b912dd495585fbf756dc6d8f415a7649"}
+GET /data/2.5/weather?lat=1.1&lon=1.1&appid=b912dd495585fbf756dc6d8f415a7649 HTTP/1.1
+Host: api.openweathermap.org
+
+
+
+HTTP/1.1 200 OK
+Server: openresty
+Date: Tue, 11 May 2021 14:57:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 456
+Connection: keep-alive
+X-Cache-Key: /data/2.5/weather?lat=1.1&lon=1.1
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: GET, POST
+
+{"coord":{"lon":1.1,"lat":1.1},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":301.01,"feels_like":303.67,"temp_min":301.01,"temp_max":301.01,"pressure":1011,"humidity":71,"sea_level":1011,"grnd_level":1011},"visibility":10000,"wind":{"speed":3.5,"deg":168,"gust":3.69},"clouds":{"all":4},"dt":1620744849,"sys":{"sunrise":1620712026,"sunset":1620755816},"timezone":0,"id":0,"name":"","cod":200}
+GET /api/v1/auth/logout HTTP/1.1
+Host: 34.118.48.238
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-DNS-Prefetch-Control: off
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Date: Tue, 11 May 2021 14:57:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Content-Length: 0
+
+

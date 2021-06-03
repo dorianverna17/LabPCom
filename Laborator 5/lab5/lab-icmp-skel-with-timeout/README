@@ -1,0 +1,7 @@
+Am avut un caz in care la traceroute un pachet din cele 10 (aproximativ) dadea
+timeout, apoi a parut ca merge ok, fara problema asta.
+
+Am modificat in ping daca count este -1 sa imi faca by default o singura
+trimitere.
+
+Echipa: Verna Dorian-Alexandru; Timpuriu Mircea; Oprea Theodor-Alin

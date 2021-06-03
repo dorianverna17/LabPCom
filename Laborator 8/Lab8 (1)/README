@@ -1,0 +1,5 @@
+Echipa 1 - Verna Dorian-Alexandru, Timpuriu Mircea, Oprea Theodor-Alin
+
+Am implementat si bonusul, am testat cu mai multi clienti si merge, pur si
+simplu am interat prin socketii pe care ii am si daca nu este socketul curent
+(clientul care a adus schimbarea, fie a iesit fie a intrat), trimit notificari.

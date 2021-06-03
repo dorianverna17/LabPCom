@@ -1,0 +1,7 @@
+Echipa 1 - Verna Dorian-Alexandru, Timpuriu Mircea, Oprea Theodor-Alin
+Lab 10 - HTTP
+
+Am implementat si bonusul cu get-ul la openWeather, am inclus in cod ca si
+comentarii cheile si am inclus si un fisier de output in care am redirectat
+outputul de la client cu tot ce am trimis / primit (ca HTTP-uri). Sunt
+rezolvate toate exercitiile de baza + bonusul de get la openWeather.

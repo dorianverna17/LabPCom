@@ -1,0 +1,42 @@
+.			5	IN	NS	e.root-servers.net.
+.			5	IN	NS	i.root-servers.net.
+.			5	IN	NS	b.root-servers.net.
+.			5	IN	NS	k.root-servers.net.
+.			5	IN	NS	h.root-servers.net.
+.			5	IN	NS	g.root-servers.net.
+.			5	IN	NS	d.root-servers.net.
+.			5	IN	NS	f.root-servers.net.
+.			5	IN	NS	a.root-servers.net.
+.			5	IN	NS	m.root-servers.net.
+.			5	IN	NS	l.root-servers.net.
+.			5	IN	NS	c.root-servers.net.
+.			5	IN	NS	j.root-servers.net.
+;; Received 262 bytes from 127.0.0.53#53(127.0.0.53) in 8 ms
+
+club.			172800	IN	NS	ns1.dns.nic.club.
+club.			172800	IN	NS	ns2.dns.nic.club.
+club.			172800	IN	NS	ns3.dns.nic.club.
+club.			172800	IN	NS	ns4.dns.nic.club.
+club.			172800	IN	NS	ns5.dns.nic.club.
+club.			172800	IN	NS	ns6.dns.nic.club.
+club.			86400	IN	DS	29815 8 1 7F2B8E1D8B715BB382111A84F4552A599462017A
+club.			86400	IN	DS	29815 8 2 3B67F899B57454E924DD1EFAE729B8741D61BA9BC8D76CD888919E5C 0950CA23
+club.			86400	IN	RRSIG	DS 8 1 86400 20210510050000 20210427040000 14631 . XY75Y7Qf4XYAH15PE+QuPOJQqdC79ps9HKDO3TZ4iSCzzKxyg74Kkf6M J/D0IwrzArY6DJ9BFbc5DkqnUHnhEjYQiWD1bu9FX7090r1F3njZJQi+ 2zRxesIR0NrkSitg623Yp+X5f4UfMQALiViFkFdML/fuN2axuwp8wJ1C s5GotVkUNnjsyYW+2DQj7Y01qZTf8b2N26MZX/vLKq/Mwa7S+sH7Yx0F Ay3Iz5zQ/k9J/ZTKcWjkTvqHrS79BBn1NIA1nFRioSNz6zfapTz/s4HN +fv343BP2u/z/Xz+PF+Mp0mF9xn4zyqnOG+jJposHFJc6F6Nn0rgksWz TqOpZA==
+;; Received 808 bytes from 192.203.230.10#53(e.root-servers.net) in 8 ms
+
+protocoale.club.	3600	IN	NS	dns1.registrar-servers.com.
+protocoale.club.	3600	IN	NS	dns2.registrar-servers.com.
+protocoale.club.	3600	IN	DS	51214 13 1 30880D616BB4E2F12FAF6313FE54CD2A14371718
+protocoale.club.	3600	IN	RRSIG	DS 8 2 3600 20210521152443 20210421151537 34263 club. UWpMgfjVl0WMWklFWnk1O7a0lZa6tV2sLqR/u2fdbRZJEOA/Q6uMnce3 JZvtf5BMY6yB1crnnQ2b2A6mukiBbdouie+A+efCJHKd5Qw4MESzAwD6 jlV67XnDmSk++WZfzWLsKTn3BFW2l4PkXLXpEpEklthn3Xk9PVhD4xxg g/MZ8vjobQ4lVWKYz0pRWSFXlHW4EqhcaTE/zF4kWgkK+w==
+;; Received 348 bytes from 156.154.158.215#53(ns6.dns.nic.club) in 48 ms
+
+dorinel.protocoale.club. 300	IN	NS	potato.dfilip.xyz.
+dorinel.protocoale.club. 3601	IN	NSEC	multi.protocoale.club. NS RRSIG NSEC
+dorinel.protocoale.club. 3601	IN	RRSIG	NSEC 13 3 3601 20210506000000 20210415000000 20015 protocoale.club. tWimESeBLDRASP9JX4+5ZpsXsNJaJDAJXqzZ6arxUPmoGn6unSe/FVl5 1tLNOq5GkKwGcU5xnk3VBEbBgUvvCA==
+;; Received 242 bytes from 156.154.133.200#53(dns2.registrar-servers.com) in 44 ms
+
+test.dorinel.protocoale.club. 300 IN	A	127.0.42.0
+test.dorinel.protocoale.club. 300 IN	A	127.0.0.42
+dorinel.protocoale.club. 300	IN	NS	potato.dfilip.xyz.
+;; Received 148 bytes from 82.78.81.172#53(potato.dfilip.xyz) in 12 ms
+
