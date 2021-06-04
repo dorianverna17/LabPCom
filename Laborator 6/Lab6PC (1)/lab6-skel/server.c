@@ -31,7 +31,7 @@ int main(int argc,char**argv)
 {
 	int fd, sockfd, rd;
 
-	if (argc!=2)
+	if (argc != 3)
 		usage(argv[0]);
 	
 	struct sockaddr_in my_sockaddr, from_station ;
@@ -79,7 +79,7 @@ int main(int argc,char**argv)
 			printf("%s\n", buf);
 			if (buf[0] == 'N') {
 				printf("caz 0\n\n");
-				fd=open(buf,O_WRONLY|O_CREAT|O_TRUNC,0644);
+				fd=open("yes.txt",O_WRONLY|O_CREAT|O_TRUNC,0644);
 				memset(buf, 0, BUFLEN);
 			}
 			else if (buf[0] == 'M') {
